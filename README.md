@@ -65,15 +65,51 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+'''module log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
+output c1,c2,c3,c4,c5,c6,c7;
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b);
+endmodule
+'''
 
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber:212224040039 
  
 **Logic symbol & Truthtable**
+AND Gate:
+![image](https://github.com/user-attachments/assets/aaa7db26-dc47-4f8f-8f8d-8e6ceefb5576)
+
+NOT Gate:
+![image](https://github.com/user-attachments/assets/b97929e2-5bc2-4be3-ab65-0e11c2d6b2bf)
+
+OR Gate:
+![image](https://github.com/user-attachments/assets/5df2ea58-51e2-4244-a56f-309a5c962eaa)
+
+NAND Gate:
+![image](https://github.com/user-attachments/assets/3f241f8d-b6f4-4438-89a6-dd5d0926939c)
+
+NOR Gate:
+![image](https://github.com/user-attachments/assets/17a5aef0-5678-4483-9c66-232ef88a639a)
+
+XOR Gate:
+![image](https://github.com/user-attachments/assets/d75a343f-371d-48ab-9219-2019c075be7b)
+
+XNOR Gate:
+![image](https://github.com/user-attachments/assets/54839c41-5221-4984-9b4f-18b66f5b92ef)
+
 
 **RTL realization Output:** 
+![exp 1](https://github.com/user-attachments/assets/0496f509-fa21-44b0-9fec-eaabda22cc88)
+
 
 **RTL**
+![ep 1 1](https://github.com/user-attachments/assets/2e48e689-bf33-4cc5-a712-3dd6fd6a7bdc)
 
 **Result:**
-
+ The truth tables of the logic gates were successfully studied and verified using Verilog programming in Quartus II. The implementation and simulation results matched the expected outcomes for each gate.
 
