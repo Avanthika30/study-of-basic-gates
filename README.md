@@ -81,7 +81,8 @@ endmodule
  Developed by:AVANTHIKA.B RegisterNumber:212224040039 
 
 **RTL realization Output:** 
-![exp 1](https://github.com/user-attachments/assets/0496f509-fa21-44b0-9fec-eaabda22cc88)
+![exp 1](https://github.com/user-attachments/assets/83f91c9b-7030-4462-a11d-88fbb06546e4)
+
 
 
 **RTL**
